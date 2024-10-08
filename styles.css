@@ -1,0 +1,81 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* .noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+}
+
+/* Typography */
+
+.name {
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+address {
+  font-style: normal;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.8rem 0 0.55rem 0;
+  color: #368b46;
+}
+
+p {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+p:last-child{
+  padding-bottom: 0.8rem;
+}
+
+/* Colors */
+
+.institution-name {
+  color: #2377c4;
+  font-weight: 500;
+}
+
+/* List Styles */
+
+ul {
+  padding: 0.7rem 0;
+  margin: 0 1rem;
+}
+
+ul li {
+  font-size: 0.95rem;
+}
+
+ul li::marker {
+  font-size: 0.8rem;
+}
+
+/* Addicional Styles */
+
+.name::before {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 70vw;
+  background-color: #000;
+  margin-bottom: 0.75rem;
+}
